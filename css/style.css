@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /* Colors */
+  
+  /* Primary */
+
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+
+  /* Neutral */
+
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+
+
+  /* Fonts */
+
+  --font-family: "Manrope", sans-serif;
+
+  /*  Weight */
+
+  --fw800: 800;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:visited {
+  color: var(--light-cyan);
+}
+
+html {
+  font-size: 62.5%;
+}
+  
+body {
+  font-family: var(--font-family);
+  background-color: var(--dark-blue);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 1.5rem;
+  border-radius: 10px;
+  background: var(--dark-grayish-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20rem;
+}
+
+.title {
+  color: var(--neon-green);
+  text-transform: uppercase;
+  font-size: clamp(1rem, 1vw, 2.2rem);
+  letter-spacing: .5rem;
+  font-weight: 100;
+  margin-top: 2.5rem;
+}
+
+
+.quote{
+
+  margin-top: 2.5rem;
+}
+
+q {
+  color: var(--light-cyan);
+  font-size: clamp(2.5rem, 1vw, 3.5rem);
+  
+}
+
+.divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: -1.5rem;
+}
+
+.divider-1 {
+  visibility: visible;
+}
+
+.divider-2 {
+  visibility: hidden;
+}
+
+.error {
+  background-image: url('../images/jack-joker.jpg');
+  min-width: 375px;
+  height: 375px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.title-error {
+  color: var(--neon-green);
+  font-size: 3rem;
+}
+
+.disable {
+  display: none;
+}
+
+.btn {
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  background: var(--neon-green);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(75%);
+  
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 40px 0px var(--neon-green);
+
+} 
+
+
+footer {
+  font-size: clamp(1rem, 1vw, 1.5rem);
+  margin-top: 15rem;
+  color: var(--neon-green);
+}
+
+/* media Responsive */
+
+@media screen and (width > 550px){
+
+  .container {
+    width: 550px;
+  }
+  .quote q {
+    font-size: clamp(3.1rem, 1vw, 4rem);
+  } 
+
+  .divider-1 {
+    visibility: hidden;
+  }
+
+  .divider-2 {
+    visibility: visible;
+  }
+
+
+
+  .error {
+    background-image: url('../images/jack-joker.jpg');
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .title-error {
+    color: var(--neon-green);
+    font-size: 3rem;
+  }
+
+  .disable {
+    display: none;
+  }
+
+
+ footer {
+  font-size: clamp(1rem, 1vw, 1.5rem);
+  margin-top: 25rem;
+  color: var(--neon-green);
+}   
+}
