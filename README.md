@@ -1,62 +1,37 @@
-# English version
+# Advice Generator App
 
-## Thank you for being here viewing this project.
+"This is a web application that generates random tips obtained through an API. It is designed to practice using external APIs and DOM manipulation."
+
+## Project demonstration
+
+![](./images/video-ezgif.com-video-to-gif-converter.gif)
+
 
 ### I have used to complete this famous quotes project:
 - Html
 - CSS
 - Javascript.
 
-## Project explanation:
+### Live Demo Project [here](https://advice-generator-app-main-frontend.netlify.app/)
 
-Using the adiviceslip.com api, to fetch the famous quotes and print them in the dom randomly.
+
+If you want to try this app  
+1- clone the repository
+
+
+    https://github.com/Arirockdev/advice-generator-app-main.git
+
+  2- open the `index.html` file in your browser
+
 
 ## For the app I used:
 
-- Html  
-  Simple layout.
+- Html 
 
-- CSS  
-  Styles
+- Css
 
 - Javascript  
-To handle the printing of the famous quote in the dom, I used an asynchronous function, which handles the request to the api, a function that handles the printing of the quotes in the dom and another function that handles any possible error.
+To handle the printing of the quote in the dom, I have used an asynchronous function, which handles the request to the api (`https://api.adviceslip.com/`). One function that handles the printing of the quotes in the dom and another function that handles any possible errors.
 In this way I have modularized the code in a simple and orderly way for better reading.
 
-
----
-
-# Version Español
-
-## Gracias por esta aqui viendo este proyecto.
-
-### He usado para completar este proyecto de frases celebres:
-- Html
-- CSS
-- Javascript.
-
-## Explicación del proyecto:
-
-Usando la api de adiviceslip.com, para traer las frases celebre e imprimirlas en el dom de forma aleatoria.
-
-## Para la app use:
-
-- Html   
-Maquetado simple.
-
-- CSS   
-Estilos
-
-- Javascript   
-Para el manejar la impresion de la frase celebre en el dom, use una función asincrona, que maneja la peticion a la api, una funcion que maneja la impresión de las frases en el dom y otra funcion que maneja cualquier posible error
-De esta forma he modularizado el codigo de manera simple y ordenada para una mejor lectura.
-
-
-
-
-![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
-
-
-
-
-**Have fun building!** 🚀
+#### This project belongs to the following [Frontend Mentor](https://www.frontendmentor.io/) challenge You can check it [here](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
