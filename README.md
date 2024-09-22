@@ -2,15 +2,30 @@
 
 "This is a web application that generates random tips obtained through an API. It is designed to practice using external APIs and DOM manipulation."
 
+
+### Features of the app
+
+- Generates random sentences using the "Advice Slip" API.
+
+- Responsive interface for mobile devices.
+
+- Modern design with Flexbox CSS
+
+
+
 ## Project demonstration
 
 ![](./images/video-ezgif.com-video-to-gif-converter.gif)
 
 
-### I have used to complete this famous quotes project:
-- Html
-- CSS
-- Javascript.
+### I used to complete this famous quotes project this technologies:
+
+- Frontend: Html, CSS, Javascript.
+
+- BackEnd: api.adviceslip
+
+- Git, GitHub
+
 
 ### Live Demo Project [here](https://advice-generator-app-main-frontend.netlify.app/)
 
