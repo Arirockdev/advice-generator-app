@@ -5,7 +5,11 @@
 
 ### Features of the app
 
-"This project was developed with HTML, CSS, and JavaScript, using the Advice Slip API to generate random quotes.
+- Generate random advice using the Advice Slip API.
+
+- Mobile-friendly responsive interface.
+
+- Modern design with Flexbox CSS.
 
 
 ## Project demonstration
@@ -15,11 +19,7 @@
 
 ### I used to complete this famous quotes project this technologies:
 
-- Frontend: Html, CSS, Javascript.
-
-- BackEnd: api.adviceslip
-
-- Git, GitHub
+"This project was developed with HTML, CSS, and JavaScript, using the Advice Slip API to generate random quotes.
 
 
 ### Live Demo Project [here](https://advice-generator-app-frontendmentor-a.netlify.app/)
