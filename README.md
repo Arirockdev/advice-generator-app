@@ -1,16 +1,11 @@
 # Advice Generator App
 
-"This is a web application that generates random tips obtained through an API. It is designed to practice using external APIs and DOM manipulation."
+"This advice generator is a simple web application that gives you random advice by integrating with an API. It's great for practicing API consumption and improving frontend development skills."
 
 
 ### Features of the app
 
-- Generates random sentences using the "Advice Slip" API.
-
-- Responsive interface for mobile devices.
-
-- Modern design with Flexbox CSS
-
+"This project was developed with HTML, CSS, and JavaScript, using the Advice Slip API to generate random quotes.
 
 
 ## Project demonstration
