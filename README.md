@@ -12,7 +12,7 @@
 - Modern design with Flexbox CSS.
 
 
-## Project demonstration
+## Project demostration
 
 ![](./images/video-ezgif.com-video-to-gif-converter.gif)
 
